@@ -1,0 +1,145 @@
+<html><head><base href="https://sassysoutherntcs.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to Sassy Southern TC's</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+    :root {
+        --main-teal: #20B2AA;
+        --light-teal: #E0FFFF;
+        --dark-teal: #008080;
+        --white: #FFFFFF;
+        --black: #000000;
+        --bright-blue: #00BFFF;
+        --metallic-silver: #C0C0C0;
+    }
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: var(--black);
+        background-image: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    header {
+        background-color: rgba(32, 178, 170, 0.9);
+        padding: 1.5rem;
+        text-align: center;
+        position: relative;
+    }
+    header h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--bright-blue);
+        text-shadow: 
+            -1px -1px 0 var(--metallic-silver),
+            1px -1px 0 var(--metallic-silver),
+            -1px 1px 0 var(--metallic-silver),
+            1px 1px 0 var(--metallic-silver),
+            2px 2px 4px rgba(0,0,0,0.5);
+        -webkit-text-stroke: 2px var(--metallic-silver);
+        text-stroke: 2px var(--metallic-silver);
+    }
+    header p {
+        font-size: 1.4rem;
+        margin-top: 0;
+        color: var(--white);
+    }
+    nav {
+        background-color: rgba(0, 128, 128, 0.9);
+        padding: 0.5rem;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    nav ul li {
+        margin: 0.5rem 1rem;
+    }
+    nav ul li a {
+        color: var(--white);
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+        color: var(--light-teal);
+    }
+    main {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+    h1, h2, h3 {
+        color: var(--dark-teal);
+    }
+    .cta-button {
+        display: inline-block;
+        background-color: var(--main-teal);
+        color: var(--white);
+        padding: 0.75rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+        background-color: var(--dark-teal);
+    }
+    .email {
+        color: var(--dark-teal);
+        font-weight: bold;
+    }
+    .background-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+        background-color: rgba(32, 178, 170, 0.9);
+        color: var(--white);
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Sassy Southern TC's</h1>
+        <p>Your Professional Transaction Coordinator</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Welcome</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/testimonials">Testimonials</a></li>
+            <li><a href="/book">Book Appointment</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="background-container">
+            <h2>Welcome to Sassy Southern TC's</h2>
+            <p>We're your go-to transaction coordinators, here to make your real estate transactions smooth, efficient, and stress-free. With our expertise and Southern charm, we'll handle all the details so you can focus on what you do best.</p>
+            <p>Whether you're a seasoned real estate professional or new to the game, we're here to support you every step of the way. Let us take care of the paperwork while you take care of your clients.</p>
+            <p>Ready to make your real estate transactions a breeze? Get in touch with us today!</p>
+            <p class="email">Email: <a href="mailto:info@sassysoutherntcs.com">info@sassysoutherntcs.com</a></p>
+            <a href="/book" class="cta-button">Book an Appointment</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Sassy Southern TC's. All rights reserved.</p>
+    </footer>
+</body>
+</html>

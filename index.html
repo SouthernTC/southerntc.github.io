@@ -1,7 +1,7 @@
-<html><head><base href="https://sassysoutherntcs.com/faq">
+<html><head><base href="https://sassysoutherntcs.com/">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FAQ - Sassy Southern TC's</title>
+<title>Welcome - Sassy Southern TC's</title>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
@@ -31,7 +31,7 @@
     }
     header h1 {
         font-family: 'Roboto', sans-serif;
-        font-size: 4.5rem; /* Increased font size */
+        font-size: 5rem; /* Increased font size */
         margin-bottom: 0.5rem;
         color: var(--bright-blue);
         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -70,7 +70,7 @@
         margin: 2rem auto;
         padding: 0 1rem;
     }
-    .background-container {
+    .welcome-container {
         background-color: rgba(255, 255, 255, 0.9);
         padding: 2rem;
         border-radius: 10px;
@@ -81,16 +81,18 @@
         border-bottom: 2px solid var(--main-blue);
         padding-bottom: 0.5rem;
     }
-    .faq-item {
-        margin-bottom: 1.5rem;
-    }
-    .faq-question {
+    .cta-button {
+        display: inline-block;
+        background-color: var(--main-blue);
+        color: var(--white);
+        padding: 0.8rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
         font-weight: bold;
-        color: var(--main-blue);
-        margin-bottom: 0.5rem;
+        transition: background-color 0.3s ease;
     }
-    .faq-answer {
-        margin-left: 1rem;
+    .cta-button:hover {
+        background-color: var(--dark-blue);
     }
     footer {
         background-color: rgba(65, 105, 225, 0.9); /* Royal Blue with opacity */
@@ -117,52 +119,13 @@
         </ul>
     </nav>
     <main>
-        <div class="background-container">
-            <h2>Frequently Asked Questions</h2>
-            
-            <div class="faq-item">
-                <p class="faq-question">Q: What is a Transaction Coordinator?</p>
-                <p class="faq-answer">A: A Transaction Coordinator (TC) is a real estate professional who manages the administrative and clerical tasks associated with a real estate transaction. They ensure all necessary paperwork is completed, deadlines are met, and communication flows smoothly between all parties involved in the transaction.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Q: What services do you offer?</p>
-                <p class="faq-answer">A: We offer a comprehensive range of transaction coordination services, including document management, deadline tracking, coordination with all parties involved (agents, lenders, title companies, etc.), and ensuring compliance with local real estate regulations. For a full list of our services, please visit our Services page.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Q: How can hiring a TC benefit me as a real estate agent?</p>
-                <p class="faq-answer">A: Hiring a TC can significantly reduce your workload, allowing you to focus on client relationships and growing your business. We handle the time-consuming paperwork and follow-ups, ensuring nothing falls through the cracks. This can lead to smoother transactions, happier clients, and potentially more deals closed.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Q: How do you ensure the confidentiality of transaction information?</p>
-                <p class="faq-answer">A: We take confidentiality very seriously. We use secure, encrypted systems for all our communications and document storage. Our team is trained in privacy best practices and adheres to all relevant data protection regulations.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Q: What makes Sassy Southern TC's unique?</p>
-                <p class="faq-answer">A: At Sassy Southern TC's, we combine professional expertise with Southern charm. We're not just efficient and detail-oriented; we also bring a personal touch to every transaction. Our goal is to make the process as smooth and enjoyable as possible for everyone involved.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Q: How do I get started with your services?</p>
-                <p class="faq-answer">A: Getting started is easy! Simply visit our Book Appointment page to schedule a consultation. We'll discuss your needs and how we can best support your business. You can also reach out to us directly at info@sassysoutherntcs.com.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Q: How can you help real estate investors?</p>
-                <p class="faq-answer">A: We offer specialized services for real estate investors that can streamline their operations and maximize efficiency:
-                    <ul>
-                        <li>Managing multiple transactions simultaneously, perfect for investors working on several properties</li>
-                        <li>Ensuring compliance with local regulations, which can be complex for investment properties</li>
-                        <li>Coordinating with property managers, contractors, and other professionals involved in investment properties</li>
-                        <li>Keeping detailed records for tax and accounting purposes</li>
-                        <li>Providing regular updates and reports on the status of all ongoing transactions</li>
-                        <li>Assisting with 1031 exchanges and other complex investment strategies</li>
-                    </ul>
-                    Our services allow investors to focus on finding deals and growing their portfolio while we handle the administrative details.</p>
-            </div>
+        <div class="welcome-container">
+            <h2>Welcome to Sassy Southern TC's</h2>
+            <p>At Sassy Southern TC's, we bring a touch of Southern charm to the world of real estate transaction coordination. Our team of experienced professionals is dedicated to making your real estate transactions smooth, efficient, and stress-free.</p>
+            <p>Whether you're a busy real estate agent looking to streamline your operations or an investor managing multiple properties, we've got you covered. Our comprehensive services ensure that every detail is handled with precision and care.</p>
+            <p>With Sassy Southern TC's by your side, you can focus on what you do best - growing your business and serving your clients - while we take care of the paperwork and coordination behind the scenes.</p>
+            <p>Ready to experience the Sassy Southern difference? Let's get started!</p>
+            <a href="/book" class="cta-button">Book an Appointment</a>
         </div>
     </main>
     <footer>
